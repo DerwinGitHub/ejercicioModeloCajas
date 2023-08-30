@@ -8,18 +8,17 @@ body, html {
     padding: 0;
 }
  section   {
-    overflow: hidden;
-    background-color: purple
+   display: flex; 
+   background-color: purple;
+   flex-direction: column;
  }
 
  nav{
-    float: left;
     width: 25%;
     background-color: red;
  }
 
  article{
-    float: left;
     height: 240px;
     width: 75%;
     background-color: yellow
