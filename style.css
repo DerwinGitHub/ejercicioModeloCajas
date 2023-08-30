@@ -2,6 +2,11 @@
     background-color: cyan;
     width: 1200px;
     margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    'header header header header'
+    'menu content content content'
+    'footer footer footer footer';	
 }
 body, html {
     margin: 0;
@@ -14,13 +19,13 @@ body, html {
  }
 
  nav{
-    width: 25%;
     background-color: red;
+    grid-area: menu;
  }
 
  article{
+    grid-area: content;
     height: 240px;
-    width: 75%;
     background-color: yellow
  }
 
@@ -30,6 +35,7 @@ header {
 }
 
 footer {
+    grid-area: footer;
     height: 60px;
     background-color: blue
 }
