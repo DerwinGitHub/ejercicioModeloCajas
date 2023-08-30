@@ -1,0 +1,36 @@
+#container {    
+    background-color: cyan;
+    width: 1200px;
+    margin: 0 auto;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+ section   {
+    overflow: hidden;
+    background-color: purple
+ }
+
+ nav{
+    float: left;
+    width: 25%;
+    background-color: red;
+ }
+
+ article{
+    float: left;
+    height: 240px;
+    width: 75%;
+    background-color: yellow
+ }
+
+header {
+    height: 60px;
+    background-color: blue
+}
+
+footer {
+    height: 60px;
+    background-color: blue
+}
